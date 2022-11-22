@@ -11,10 +11,6 @@ body{
     font-size: 10px;   
 }
 
-.one{
-    width: 100%;
-    
-}
 /* container for the cards for other days */
 .card_container{
     display: flex;
@@ -24,20 +20,42 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    position: relative;
-    top: 20px;
+    top: 5px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 /* created a container check12 */
 .check12{
     position: relative;
     bottom: 12px;
+    height: 45px;
+}
+
+#info3{
+    bottom: 30px;
+    /* position: relative;
+    width: 20px;
+    height: 20px; */
 }
 #searchBox{
     height: 25px;
     width: 250px;
     text-align: center;
     position: relative;
-    right: 37%;
-    bottom: 33%;
+    right: 35%;
+    bottom: 90%;
+}
+
+#info2{
+    font-weight: 400px;
+    font-size: 15px;
+    position: relative;
+    bottom: 9px;
+}
+
+.three{
+    position: relative;
+    bottom: 15px;
+    height: 40px;
 }
